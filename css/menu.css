@@ -57,3 +57,8 @@
 .menu-wrap .hamburger>div:after {
   top: 10px;
 }
+
+/* Toggler animate */
+.menu-wrap .toggler:checked+.hamburger>div {
+  transform: rotate(135deg);
+}
